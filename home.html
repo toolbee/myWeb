@@ -5,52 +5,42 @@
 	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <link rel="stylesheet" type="text/css" href="homeStyle.css">
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
-<style type="text/css">
-	.jumbotron {
-		padding-top: 15px;
-	}
-	button {
-		float: left;
-	}
-	h1 {
-		margin-top: 0;
-	}
-</style>
 
 <body>
 
 <!-- header -->
 	<section>
-		<div class="jumbotron text-center">
+		<div class="container-fluid">
 			<div class="main_menu container">
-				<div class="button-group">
-					<button class="btn btn-default">profile</button>
-					<button class="btn btn-default">category</button>
-					<button class="btn btn-default">message</button>
+				<div class="row">
+					<div class="main_logo col-md-3">
+						<h2>Tasty Load</h2>
+					</div>
+					<div class="col-md-5"></div>
+					<div class="button-group col-md-4">
+					<!-- <button class="btn btn">Message</button> -->
+						<button class="btn btn">Alley Captain</button>
+						<button class="btn btn">Sign in</button>
+					</div>
 				</div>
 			</div>
-			<header>
-				
-				<hgroup>
-					<h1 id="title">Toolbee's Website</h1>
-					<p>Welcome my home!</p>
-				</hgroup>
-			</header>	
+		
 		</div>
 	</section>
 
-<!-- sideMenuBar -->
-	<section>
-		<div>
-			
+<!-- map-content -->
+	<section id="content">
+		<div id="main_map" class="row">
+			<iframe src="https://www.google.com/maps/d/embed?mid=1lz_v6tiIT5gINBOYMRPmYo6QFlE"></iframe>
 		</div>
 	</section>
 
-<!-- content -->
+<!-- description -->
 	<section>
 		<div>
 			
