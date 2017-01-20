@@ -2,14 +2,15 @@
 		position: fixed;
 		top: 0;
 		width: 100%;
-		padding: 17px 0 17px 0;
+		padding: 12px 0 12px 0;
 		/*max-height: 87px;*/
 
 		margin: 0;	
 		background-color: black;
 		opacity: 0.8;
-		
+		border-top: 4px solid green;
 	}
+
 	.main_menu > div > div {
 		margin: 0;
 	}
@@ -19,7 +20,7 @@
 	}
 	.button-group > button {
 		font-size: 20px;
-		font-weight: bold;
+		/*font-weight: bold;*/
 		margin: 5px 0 5px 0;
 		color: white;
 		float: right;
@@ -28,7 +29,7 @@
 	}
 	
 	#content {
-		padding-top: 87px;
+		padding-top: 80px;
 	}
 	iframe {
 		width: 100%;
@@ -44,10 +45,11 @@
 	#description > div {
 		text-align: center;
 		vertical-align: middle;
-		height: 200px;
+		/*height: 200px;*/
 	}
 	#description > div > h1 {
 		color: white;
-		padding: 50px;
+		padding: 100px;
+		margin: 0;
 	}
 
